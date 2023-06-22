@@ -19,7 +19,7 @@ export default function Home() {
               <div className='w-1/2 flex flex-col items-center self-center'>
                 <AnimatedText text="Coding the Future, One Line at a Time." className='!text-6xl !text-left' />
                 <p className='my-4 text-base font-medium text-light/40 hover:text-light/70 p-8'>
-                    " As a proficient full-stack developer, my commitment lies in transforming concepts into groundbreaking applications. Take a dive into my most recent endeavors and informative write-ups, which highlight my proficiency in Software Development ".
+                    As a proficient full-stack developer, my commitment lies in transforming concepts into groundbreaking applications. Take a dive into my most recent endeavors and informative write-ups, which highlight my proficiency in Software Development.
                 </p>
                 <div className='flex items-center self-start mt-2'>
                   <Link href="/CV.pdf" target='_blank' className='flex items-center bg-light/30 text-light p-2.5 px-6 rounded-lg shadow-lg text-lg font-semibold hover:bg-light hover:text-black border border-solid border-transparent hover:border-dark' download={true}>
