@@ -22,7 +22,7 @@ const Certificates = () => {
   return (
     <>
       <Head>
-        <title>Certificates</title>
+        <title>Mounir Saghafry || Certificates</title>
       </Head>
 
       <main className="w-full mb-36 flex flex-col items-center justify-center">

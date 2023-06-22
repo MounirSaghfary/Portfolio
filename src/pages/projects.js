@@ -14,10 +14,10 @@ const Project = ({ type, title, summary,exist, github }) => {
             <p className='mb-6 font-medium text-dark/75'>{summary}</p>
             {exist ==='exist'&&(
                 <div className="grid grid-cols-2">
-                    <GithubIcon className="w-50 h-10" />
-                    <Link href={github} className="bg-black hover:bg-primary items-center font-medium text-white hover:underline">
-                        <h className="flex pt-2 items-center justify-center">Visit Project</h>
-                    </Link>
+                    <GithubIcon className="w-50 h-11" />
+                      <Link href={github} className="bg-black hover:bg-primary items-center font-medium text-white hover:underline">
+                          <h className="flex pt-2 items-center justify-center">Visit Project</h>
+                      </Link>
                 </div>
             )}
         </div>
@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <title>Projects</title>
+        <title>Mounir Saghafry || Projects Page</title>
       </Head>
 
       <main className="w-full mb-36 flex flex-col items-center justify-center">
@@ -44,7 +44,6 @@ const Projects = () => {
                 type="Web Application"
                 title="IT Affairs Management System"
                 summary="The primary focus of the application is task, ticketing, purchases and budget management. Throughout the development process, I utilized my programming skills in Nextjs, SQL, JavaScript, and Tailwind CSS."
-                exist="exist"
                 github=""
               />
             </div>
@@ -54,7 +53,6 @@ const Projects = () => {
                 type="Mobile Application"
                 title="IT Affairs Management System"
                 summary="This is the mobile version of the previous system. Throughout the development process, I utilized my programming skills in React Native, Expo, JavaScript, CSS, Supabase."
-                exist="exist"
                 github=""
               />
             </div>
@@ -73,7 +71,6 @@ const Projects = () => {
                 type="Mobile Application"
                 title="Food Delivery System"
                 summary="The primary focus of the application is food online ordering, reservations management, delivery employees and menu management. Throughout the development process, I utilized my programming skills in React Native, Supabase, JavaScript, TypeScript and CSS."
-                exist="exist"
                 github=""
               />
             </div>
